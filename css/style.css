@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    background-color: #3b5998;
+}
+.header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    width: 77%;
+    margin: 0 auto;
+    color: aliceblue;
+    max-width: 1000px;
+}
+.logo-area {
+    width: 30%;
+    float: left;
+}
+.logo-area img {
+    width: 180px;
+    height: 60px;
+    margin-top: 10px;
+}
+.login-area {
+    width: 64%;
+    float: left;
+    padding: 12px 0px;
+    font-size: 14px;
+}
+.login-area form {
+    float: right;
+}
+.login-area label,
+input {
+    display: block;
+}
+.login-area label {
+    margin-bottom: 5px;
+}
+.login-area .username,
+.login-area .password,
+.login-area .login {
+    margin-right: 12px;
+    float: left;
+}
+.login-area .login {
+    margin-right: 0px;
+}
+.login-area .login {
+    width: 20px;
+    color: #fff;
+    background-color: #3b5998;
+}
+.login-area a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.login-area a:hover {
+    text-decoration: underline;
+}
+.login-area input[type="text"],
+.login-area input[type="password"] {
+    padding: 2px 3px;
+    border: 2px solid #ddd;
+}
+.login-area input[type="submit"] {
+    background-color: #3b5998;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 4px 6px;
+    border: 1px solid #29487d;
+    font-weight: bold;
+}
