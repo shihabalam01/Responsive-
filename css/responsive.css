@@ -94,9 +94,15 @@
   }
   .right-part {
     width: 100%;
+ .btr-signup{
+    width: 100%;
   }
   .btr-signup input {
-    margin-left: 85px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
   }
   .create-page {
     margin-left: 44px;
