@@ -109,3 +109,10 @@
   }
   /* End SignUp Area */
 }
+@media screen and (max-width:415px){
+  .create-page {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+}
+}
