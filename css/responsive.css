@@ -1,37 +1,105 @@
 @media screen and (max-width: 980px) {
-    .logo-area {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-    .login-area {
-        width: 450px;
-        margin: 10px auto;
-        float: none;
-    }
-    .login-area form {
-        float: none;
-    }
+  /* Start LogIn Area  */
+  .logo-area {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .login-area {
+    width: 450px;
+    margin: 10px auto;
+    float: none;
+  }
+  .login-area form {
+    float: none;
+  }
+  /* End LogIn Area  */
+  /* start signUp Area */
+  .signup-area {
+    height: 620px;
+  }
+  .left-part p {
+    width: 350px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .create-ac h2 {
+    font-size: 30px;
+  }
+  .create-ac p {
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 760px) {
-    .login-area {
-        width: 100%;
-    }
-    .login-area .username,
-    .login-area .password,
-    .login-area .login {
-        float: none;
-    }
-    .login-area input[type="text"],
-    .login-area input[type="password"] {
-        width: 100%;
-    }
-    .login-area input[type="submit"] {
-        margin-top: 10px;
-    }
+  /* Start LogIn Area  */
+  .login-area {
+    width: 100%;
+  }
+  .login-area .username,
+  .login-area .password,
+  .login-area .login {
+    float: none;
+  }
+  .login-area input[type="text"],
+  .login-area input[type="password"] {
+    width: 100%;
+  }
+  .login-area input[type="submit"] {
+    margin-top: 10px;
+  }
+  /* End LogIn Area  */
+  /* Start SignUp Area */
+  .signup-area {
+    height: 620px;
+  }
+
+  .left-part p {
+    width: 315px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .create-ac h2 {
+    font-size: 30px;
+  }
+  .create-ac p {
+    font-size: 17px;
+  }
+  .fullname input {
+    font-size: 16px;
+  }
+  .email,
+  .signup-password {
+    font-size: 16px;
+  }
+  .gender-btn label {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 480px) {
-    .container {
-        width: 80%;
-    }
+  /* Start LogIn Area  */
+  .container-header {
+    width: 80%;
+  }
+  /* End LogIn Area  */
+  /* Start SignUp Area */
+  .signup-area {
+    height: 770px;
+  }
+  .left-part {
+    width: 100%;
+  }
+  .left-part p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .right-part {
+    width: 100%;
+  }
+  .btr-signup input {
+    margin-left: 85px;
+  }
+  .create-page {
+    margin-left: 44px;
+  }
+  /* End SignUp Area */
 }
